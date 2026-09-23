@@ -34,3 +34,19 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+// src/config/assets.ts
+
+export const assets = {
+  profile: "...", // Replace with your profile picture URL
+  hero: {
+    model: "...", // Optional: replace the procedural 3D sphere with a custom GLB/GLTF model
+  },
+  projects: {
+    stocky: "...", // Replace with Stocky project image URL
+    elderlyHealth: "...", 
+    sayurIkat: "...",
+  },
+  resume: "/assets/cv/Grestama-Naufal-Tsabit-CV.pdf", // Place your PDF in the `public/assets/cv` folder
+};
